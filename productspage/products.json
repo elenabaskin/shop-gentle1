@@ -1,0 +1,88 @@
+{
+  "Products": [
+    {
+      "product": 1,
+      "image": "/productspage/images-products/vest1.jpg",
+      "name": "contrasting trim vest",
+      "price": "$28",
+      "description": "solid color sweater vest with v-neck, buttons, and a contrasting black trim. 10/10 coffee shop vibes."
+    },
+    {
+      "product": 2,
+      "image": "/productspage/images-products/vest2.jpg",
+      "name": "planting flowers vest",
+      "price": "$28",
+      "description": "v-neck vest with buttons and cute image done with black stitching. perfect for casual days."
+    },
+    {
+      "product": 3,
+      "image": "/productspage/images-products/vest3.jpg",
+      "name": "mini daisies knitted vest",
+      "price": "$26",
+      "description": "slouchy fit knitted vest with embroidered flowers and buttons. 5/5 stars for coziness."
+    },
+    {
+      "product": 4,
+      "image": "/productspage/images-products/vest4.jpg",
+      "name": "contrasting crop vest",
+      "price": "$22",
+      "description": "beige cropped sweater vest with brown stitching. great addition to any picnic look."
+    },
+    {
+      "product": 5,
+      "image": "/productspage/images-products/sweater5.jpg",
+      "name": "floral pattern sweater",
+      "price": "$32",
+      "description": "long sleeve white sweater with the absolutely cutest blue flowers embroiderd on it."
+    },
+    {
+      "product": 6,
+      "image": "/productspage/images-products/sweater6.jpg",
+      "name": "beige stripe knit sweater",
+      "price": "$22",
+      "description": "oversized fit sweater with collar and colorful, patterned stripes. cute and casual for everyday wear."
+    },
+    {
+      "product": 7,
+      "image": "/productspage/images-products/cardigan7.jpg",
+      "name": "clover print cardigan",
+      "price": "$32",
+      "description": "ivory cardigan with black contrast stitching four-leaf clovers. charming enough to elevate casual looks."
+    },
+    {
+      "product": 8,
+      "image": "/productspage/images-products/cardigan8.jpg",
+      "name": "cardigan with embroidered collar",
+      "price": "$34",
+      "description": "slim-fit buttoned cardigan with black floral embroidery on a peter pan collar. perfect for those looking for a cutesy yet neutral piece."
+    },
+    {
+      "product": 9,
+      "image": "/productspage/images-products/cardigan9.jpg",
+      "name": "floral knit cardigan",
+      "price": "$32",
+      "description": "delicate buttoned cardigan with a vintage inspired floral pattern. with striped details and pearl accents, this cardigan is perfect for any soft daydreamer."
+    },
+    {
+      "product": 10,
+      "image": "/productspage/images-products/cardigan10.jpg",
+      "name": "lace lapel cardigan",
+      "price": "$38",
+      "description": "pastel yellow buttoned cable-knit cardigan with lace peter pan collar. grandmacore at its finest."
+    },
+    {
+      "product": 11,
+      "image": "/productspage/images-products/cardigan11.jpg",
+      "name": "swan cardigan",
+      "price": "$36",
+      "description": "deep blue cardigan with contrast pastel blue stitching and chalk swans graphics. the epitome of the gentle. vibe."
+    },
+    {
+      "product": 12,
+      "image": "/productspage/images-products/cardigan12.jpg",
+      "name": "v-neck floral cardigan",
+      "price": "$44",
+      "description": "cream buttoned knit cardigan with light blue trim and flowers graphics. simply cute and cosy."
+    }
+  ]
+}

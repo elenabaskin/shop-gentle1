@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="contact.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Beth+Ellen&family=Lato&family=Niconne&display=swap"
+      rel="stylesheet"
+    />
+    <title>contact us | gentle.</title>
+  </head>
+
+  <body>
+    <!--navigation bar for desktop-->
+    <nav class="navigation" id="topNav">
+      <!--logo-->
+      <div class="logo-container">
+        <p class="logo">gentle.</p>
+      </div>
+      <!-- links -->
+      <div id="navLinks" class="links">
+        <a href="/homepage/index.html">home</a>
+        <a href="/productspage/products.html">products</a>
+        <a href="/aboutuspage/about.html">about us</a>
+        <a href="/contactpage/contact.html">contact us</a>
+      </div>
+      <!-- function to display hamburger menu for mobile -->
+      <a
+        href="javascript:void(0);"
+        class="icon"
+        aria-label="menu"
+        onclick="displayNav()"
+      >
+        <i class="fa fa-bars fa-lg"></i>
+      </a>
+    </nav>
+    <!-- shopping icons -->
+    <div class="shopping-icon">
+      <i class="fa fa-shopping-bag"></i>
+    </div>
+
+    <!--page title-->
+    <h1>contact us.</h1>
+
+    <!--painting and form container-->
+    <section class="form-outline">
+      <!-- painting -->
+      <div class="painting">
+        <img
+          src="/contactpage/images-contact/matisse.jpeg"
+          alt="matisse
+        painting of vase and fruits"
+        />
+      </div>
+      <!-- form -->
+      <form>
+        <!-- first name - required -->
+        <label for="fname">first name:</label>
+        <br />
+        <input type="text" id="fname" name="fname" required />
+
+        <br />
+
+        <!-- last name - required -->
+        <label for="lname">last name:</label>
+        <br />
+        <input type="text" id="lname" name="lname" required />
+
+        <br />
+
+        <!-- email - required -->
+        <label for="email">email:</label>
+        <br />
+        <input type="email" id="email" name="email" required />
+
+        <br />
+
+        <!-- order number -->
+        <label for="order">order number:</label>
+        <br />
+        <input type="text" id="order" name="order" />
+
+        <br />
+
+        <!-- drop down selection -->
+        <label>select an inquiry:</label>
+        <br />
+        <select name="options" id="options">
+          <option value="shipping">shipping / tracking</option>
+          <option value="stock">stock</option>
+          <option value="returns">returns / exchanges</option>
+          <option value="sizing">sizing / care</option>
+          <option value="kudos">kudos</option>
+          <option value="news">news / updates</option>
+          <option value="other">other</option>
+        </select>
+
+        <br />
+
+        <!-- text area -->
+        <label for="comment">additional information:</label>
+        <br />
+        <textarea
+          id="comment"
+          name="comment"
+          rows="10"
+          cols="45"
+          placeholder="enter any additional information pertaining to your inquiry here."
+        ></textarea>
+
+        <br />
+
+        <!-- submit button -->
+        <input
+          type="submit"
+          onclick="window.location ='/thankyoupage/thanks.html'"
+          value="submit"
+          class="submit"
+        />
+      </form>
+    </section>
+
+    <br />
+
+    <!--social media footer-->
+    <footer>
+      <!-- icons -->
+      <div class="icons">
+        <a
+          href="https://www.instagram.com/"
+          aria-label="Instagram"
+          class="fa fa-instagram"
+        ></a>
+        <a
+          href="https://twitter.com/?lang=en"
+          aria-label="Twitter"
+          class="fa fa-twitter"
+        ></a>
+        <a
+          href="https://www.pinterest.com/"
+          aria-label="Pinterest"
+          class="fa fa-pinterest"
+        ></a>
+        <a
+          href="https://www.youtube.com/"
+          aria-label="YouTube"
+          class="fa fa-youtube"
+        ></a>
+      </div>
+    </footer>
+
+    <br />
+    <!--bottom directory-->
+    <div class="bottom-nav">
+      <br />
+      <a href="/homepage/index.html">home</a><br />
+      <a href="/productspage/products.html">products</a><br />
+      <a href="/aboutuspage/about.html">about us</a><br />
+      <a href="/contactpage/contact.html">contact us</a>
+      <br />
+    </div>
+
+    <div class="very-bottom">
+      <!-- no newsletter since we already have email input + news option in form -->
+
+      <!-- accepted payments -->
+      <div class="payments">
+        <i class="fa fa-cc-paypal"></i>
+        <i class="fa fa-cc-visa"></i>
+        <i class="fa fa-cc-discover"></i>
+        <i class="fa fa-cc-mastercard"></i>
+        <i class="fa fa-cc-amex"></i>
+      </div>
+    </div>
+    <br />
+
+    <script src="contact.js"></script>
+  </body>
+</html>

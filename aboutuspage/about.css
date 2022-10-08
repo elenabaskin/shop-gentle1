@@ -1,0 +1,380 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #fffbf1;
+}
+
+nav {
+  display: flex;
+  width: 100vw;
+  justify-content: space-between;
+  background-color: #fffbf1;
+  height: 10vh;
+}
+
+/* gentle. logo */
+.logo {
+  font-family: "Beth Ellen", cursive;
+  display: inline-block;
+  font-size: 2rem;
+  margin-left: 10px;
+  padding: 5px;
+  margin-top: 0;
+  /* color: #3d5267; */
+  background-color: #3d5267;
+  background-image: linear-gradient(#ebf4f5, #b5c6e0);
+  background-size: 100%;
+  background-repeat: repeat;
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+/* link styling */
+.links {
+  display: flex;
+  flex-direction: row;
+  top: 5%;
+}
+
+a {
+  text-decoration: none;
+  color: #3d5267;
+  font-family: "Lato", sans-serif;
+  font-size: 1.3rem;
+  display: block;
+  margin-right: 5px;
+  margin-left: 5px;
+  margin-top: 10px;
+}
+
+a:hover {
+  color: #afcbff;
+}
+
+.active {
+  color: #fbe4ff;
+}
+
+nav .icon {
+  display: none;
+}
+
+.shopping-icon {
+  font-size: 1.2rem;
+  float: right;
+  color: #3d5267;
+  margin-right: 5px;
+}
+
+h1 {
+  font-family: "Niconne", cursive;
+  font-size: 2.2rem;
+  text-align: center;
+  color: #3d5267;
+  margin: 0;
+  padding: 0;
+}
+
+/* styling for definition container */
+.gentle-def {
+  text-align: center;
+  /* fallback color */
+  border-top: 0.75px solid burlywood;
+  border-top: 0.75px solid rgba(46, 21, 3, 0.2);
+  /* border-bottom: 0.75px solid rgba(46, 21, 3, 0.2); */
+  background-color: #fffefc;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  font-family: "Beth Ellen", cursive;
+  color: #2e1503;
+  font-size: 1.5rem;
+  padding: 0;
+  margin: 0;
+}
+
+/* want same font but different font sizes */
+.definition,
+.dictionary {
+  font-family: "Lato", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.definition {
+  font-size: 1.2rem;
+  color: #1a1718;
+}
+
+.dictionary {
+  font-size: 1rem;
+  /* fallback color */
+  color: black;
+  color: rgba(26, 23, 24, 0.8);
+  padding-bottom: 5px;
+}
+
+.quick-info {
+  display: flex;
+  margin: 0;
+  padding: 0;
+  width: 100vw;
+  background-color: #fffefc;
+  border-bottom: 0.75px solid rgba(46, 21, 3, 0.2);
+}
+
+h2 {
+  font-family: "Beth Ellen", cursive;
+  padding-left: 10px;
+  padding-top: 5px;
+  margin: 0;
+  color: #2e1503;
+  font-size: 1.4rem;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  font-family: "Lato", sans-serif;
+  list-style: none;
+  padding: 5px;
+}
+
+mark {
+  /* fallback color */
+  background-color: aliceblue;
+  background-color: rgba(175, 203, 255, 0.3);
+}
+
+h3 {
+  font-family: "Beth Ellen", cursive;
+  font-size: 1.4rem;
+  padding-left: 10px;
+  color: #2e1503;
+}
+
+.painting {
+  width: 50vw;
+  float: left;
+}
+
+img {
+  width: 35vw;
+  object-fit: contain;
+  /* fallback color */
+  border: 0.75px solid black;
+  border: 0.75px solid rgba(46, 21, 3, 1);
+}
+
+.our-story {
+  font-family: "Lato", sans-serif;
+  padding-left: 5px;
+  padding-right: 5px;
+  line-height: 1.5rem;
+}
+
+/* social media icons */
+.icons {
+  font-size: 1.5rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+/* column structure like most sites */
+.bottom-nav {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  word-spacing: 5px;
+}
+
+.very-bottom {
+  display: inline;
+}
+
+.newsletter {
+  display: inline-block;
+  margin-bottom: 10px;
+  margin-left: 10px;
+}
+
+.payments {
+  font-size: 1.2rem;
+  float: right;
+  margin-right: 10px;
+}
+
+label {
+  font-family: "Lato", sans-serif;
+  color: #1a1718;
+  font-size: 0.9rem;
+}
+
+input {
+  border: 0.5px solid #1a1718;
+  width: 75%;
+  border-radius: 5px;
+  height: 1rem;
+}
+
+.newsletter-submit {
+  background-color: #fffefc;
+  border: 0.5px solid #1a1718;
+  border-radius: 5px;
+  color: #3d5267;
+  font-family: "Lato", sans-serif;
+}
+
+/* mobile */
+@media (max-width: 500px) {
+  nav a {
+    display: none;
+  }
+
+  nav a.icon {
+    float: right;
+    display: block;
+  }
+  nav.responsive {
+    position: relative;
+  }
+  nav.responsive a.icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  nav.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+
+  .links {
+    display: flex;
+    flex-direction: column;
+  }
+
+  a {
+    margin-top: 0;
+    font-size: 1.1rem;
+  }
+
+  header {
+    font-size: 1.3rem;
+  }
+
+  .definition {
+    font-size: 1rem;
+  }
+
+  .dictionary {
+    font-size: 0.8rem;
+  }
+
+  h2,
+  h3 {
+    text-align: center;
+    font-size: 1.1rem;
+  }
+
+  li,
+  p {
+    font-size: 0.9rem;
+    padding-right: 10px;
+  }
+
+  img {
+    display: none;
+  }
+
+  .bottom-nav {
+    display: none;
+  }
+}
+
+/* tablet */
+@media (min-width: 501px) and (max-width: 950px) {
+  nav a {
+    display: none;
+  }
+
+  nav a.icon {
+    float: right;
+    display: block;
+  }
+  nav.responsive {
+    position: relative;
+  }
+  nav.responsive a.icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  nav.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+
+  .links {
+    display: flex;
+    flex-direction: column;
+  }
+
+  a {
+    margin-top: 0;
+    font-size: 1.5rem;
+  }
+
+  .painting {
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+  }
+
+  header {
+    font-size: 1.3rem;
+  }
+
+  .definition {
+    font-size: 1rem;
+  }
+
+  .dictionary {
+    font-size: 0.8rem;
+  }
+
+  img {
+    width: 25vw;
+    /* height: 50vw; */
+    object-fit: contain;
+    border: 2px solid #1a1718;
+    text-align: center;
+  }
+
+  .quick-info {
+    display: flex;
+    flex-direction: column;
+  }
+
+  li {
+    text-align: center;
+  }
+
+  h2,
+  h3 {
+    text-align: center;
+    font-size: 1.2rem;
+  }
+
+  .bottom-nav {
+    display: none;
+  }
+}

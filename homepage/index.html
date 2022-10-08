@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="index.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Beth+Ellen&family=Lato&family=Niconne&display=swap"
+      rel="stylesheet"
+    />
+    <title>home | gentle.</title>
+  </head>
+  <body>
+    <!--navigation bar for desktop-->
+    <nav class="navigation" id="topNav">
+      <!--logo-->
+      <div class="logo-container">
+        <p class="logo">gentle.</p>
+      </div>
+      <!-- links -->
+      <div id="navLinks" class="links">
+        <a href="/homepage/index.html">home</a>
+        <a href="/productspage/products.html">products</a>
+        <a href="/aboutuspage/about.html">about us</a>
+        <a href="/contactpage/contact.html">contact us</a>
+      </div>
+      <!-- function to display hamburger menu for mobile -->
+      <a
+        href="javascript:void(0);"
+        class="icon"
+        aria-label="menu"
+        onclick="displayNav()"
+      >
+        <i class="fa fa-bars fa-lg"></i>
+      </a>
+    </nav>
+    <!-- shopping icons -->
+    <div class="shopping-icon">
+      <i class="fa fa-shopping-bag"></i>
+    </div>
+    <br />
+
+    <!--hero image(s)-->
+    <div class="slideshow">
+      <!--first image-->
+      <div class="slides">
+        <img
+          class="slide-img"
+          src="images-home/windowsill.jpeg"
+          alt="painting of an open windowsill overlooking a landscape"
+          style="width: 100%"
+        />
+        <!-- logo 2 -->
+        <h1>gentle.</h1>
+        <!-- first button -->
+        <form style="display: inline" action="/productspage/products.html">
+          <button class="pages">shop here</button>
+        </form>
+      </div>
+
+      <!--second image-->
+      <div class="slides">
+        <img
+          class="slide-img"
+          src="images-home/breakfast.jpeg"
+          alt="painting of a breakfast table with window open"
+          style="width: 100%"
+        />
+        <!-- logo 2 -->
+        <h1>gentle.</h1>
+        <!-- second button -->
+        <form style="display: inline" action="/aboutpage/about.html">
+          <button class="pages">about us</button>
+        </form>
+      </div>
+
+      <!--third image-->
+      <div class="slides">
+        <img
+          class="slide-img"
+          src="images-home/booksbywindow.jpg"
+          alt="monet painting of lake and a meadow"
+          style="width: 100%"
+        />
+        <!-- logo 2 -->
+        <h1>gentle.</h1>
+        <!-- third button -->
+        <form style="display: inline" action="/contactpage/contact.html">
+          <button class="pages">contact us</button>
+        </form>
+      </div>
+
+      <!--direction arrows-->
+      <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+      <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+      <!--dots to let you know which image you're on-->
+      <div style="text-align: center">
+        <span class="dot" onclick="currentSlide(1)"></span>
+        <span class="dot" onclick="currentSlide(2)"></span>
+        <span class="dot" onclick="currentSlide(3)"></span>
+      </div>
+      <!--end of hero image(s)-->
+    </div>
+
+    <br />
+
+    <!--brand introduction-->
+    <section class="brand-intro">
+      <h2>
+        for all the little lambs who want clothes that look as gentle as they
+        are on the inside.
+      </h2>
+      <p>
+        "gentle as a lamb" is a phrase that has been in our vernacular for a
+        long time. typically used to describe people who are always kind and
+        never aggressive towards anyone, the world could use more people with
+        this disposition. with softer aesthetics gravitating towards pastel
+        colors, we wanted to provide a lane for those who prefer more sub-dued
+        and neutral colors while still looking cute.
+      </p>
+    </section>
+
+    <br />
+    <br />
+    <!--people wearing items-->
+    <section class="photo-grid">
+      <h3>from our pasture</h3>
+      <!-- row that will always be displayed -->
+      <div class="row-one">
+        <div class="column">
+          <img
+            class="social-img"
+            src="/homepage/images-home/person-sitting-on-ground.jpg"
+            alt="person in oversized cardigan sitting on ground"
+            style="width: 100%"
+          />
+        </div>
+        <div class="column">
+          <img
+            class="social-img"
+            src="/homepage/images-home/person-wearing-crochet-vest.jpg"
+            alt="person on bench wearing crocheted vest"
+            style="width: 100%"
+          />
+        </div>
+        <div class="column">
+          <img
+            class="social-img"
+            src="/homepage/images-home/person-in-chair.jpg"
+            alt="person sitting in chair with beige outfit"
+            style="width: 100%"
+          />
+        </div>
+        <div class="column">
+          <img
+            class="social-img"
+            src="/homepage/images-home/person-with-cat-on-bench.jpg"
+            alt="person in oversized sweater with a cat on a bench"
+            style="width: 100%"
+          />
+        </div>
+      </div>
+
+      <br />
+
+      <!-- row that "disappears" on mobile -->
+      <div class="row-two">
+        <div class="column">
+          <img
+            class="social-img"
+            src="/homepage/images-home/chunky-green-cardigan-outfit.jpg"
+            alt="outfit featuring chunky green cardigan with embrodiery"
+            style="width: 100%"
+          />
+        </div>
+        <div class="column">
+          <img
+            class="social-img"
+            src="/homepage/images-home/person-wearing-skirt.jpg"
+            alt="person wearing sweatshirt and skirt in a garage"
+            style="width: 100%"
+          />
+        </div>
+        <div class="column">
+          <img
+            class="social-img"
+            src="/homepage/images-home/person-wearing-green-vest.jpg"
+            alt="person wearing green vest and green beret"
+            style="width: 100%"
+          />
+        </div>
+        <div class="column">
+          <img
+            class="social-img"
+            src="/homepage/images-home/person-wearing-overalls.jpg"
+            alt="person wearing overalls and sitting on steps"
+            style="width: 100%"
+          />
+        </div>
+      </div>
+      <br />
+    </section>
+
+    <br />
+
+    <h4><mark>from our lambs</mark></h4>
+    <section class="reviews">
+      <div class="review-one">
+        <p class="reviewer">oscar p.</p>
+        <span class="five-stars">
+          <span><i class="fa fa-star"></i></span>
+          <span><i class="fa fa-star"></i></span>
+          <span><i class="fa fa-star"></i></span>
+          <span><i class="fa fa-star"></i></span>
+          <span><i class="fa fa-star"></i></span>
+        </span>
+        <p class="review">
+          gentle. has all the clothes you need to feel like your cute self in a
+          subdued way!
+        </p>
+      </div>
+      <div class="review-two">
+        <p class="reviewer">seiji a.</p>
+        <span class="five-stars">
+          <span><i class="fa fa-star"></i></span>
+          <span><i class="fa fa-star"></i></span>
+          <span><i class="fa fa-star"></i></span>
+          <span><i class="fa fa-star"></i></span>
+          <span><i class="fa fa-star"></i></span>
+        </span>
+        <p class="review">
+          gentle. is honestly the best brand. who doesn't love mixing light
+          academia pieces with a more laidback and approachable vibe?
+        </p>
+      </div>
+      <div class="review-three">
+        <p class="reviewer">angel c.</p>
+        <span class="five-stars">
+          <span><i class="fa fa-star"></i></span>
+          <span><i class="fa fa-star"></i></span>
+          <span><i class="fa fa-star"></i></span>
+          <span><i class="fa fa-star"></i></span>
+          <span><i class="fa fa-star"></i></span>
+        </span>
+        <p class="review">
+          i received a gentle. vest as a gift and it made me switch from using
+          pastels all the time to preferring neutrals! (bonus points since that
+          vest has never left my outfit rotation!)
+        </p>
+      </div>
+    </section>
+    <br />
+
+    <!--social media footer-->
+    <footer>
+      <div class="icons">
+        <a
+          href="https://www.instagram.com/"
+          aria-label="Instagram"
+          class="fa fa-instagram"
+        ></a>
+        <a
+          href="https://twitter.com/?lang=en"
+          aria-label="Twitter"
+          class="fa fa-twitter"
+        ></a>
+        <a
+          href="https://www.pinterest.com/"
+          aria-label="Pinterest"
+          class="fa fa-pinterest"
+        ></a>
+        <a
+          href="https://www.youtube.com/"
+          aria-label="YouTube"
+          class="fa fa-youtube"
+        ></a>
+      </div>
+    </footer>
+    <br />
+
+    <!--bottom directory-->
+    <div class="bottom-nav">
+      <br />
+      <a href="/homepage/index.html">home</a><br />
+      <a href="/productspage/products.html">products</a><br />
+      <a href="/aboutuspage/about.html">about us</a><br />
+      <a href="/contactpage/contact.html">contact us</a>
+      <br />
+    </div>
+
+    <div class="very-bottom">
+      <!-- newsletter -->
+      <section class="newsletter">
+        <label for="email">sign up for our newsletter:</label>
+        <input type="email" id="email" name="email" />
+        <button class="newsletter-submit">ok!</button>
+      </section>
+
+      <!-- accepted payments -->
+      <div class="payments">
+        <i class="fa fa-cc-paypal"></i>
+        <i class="fa fa-cc-visa"></i>
+        <i class="fa fa-cc-discover"></i>
+        <i class="fa fa-cc-mastercard"></i>
+        <i class="fa fa-cc-amex"></i>
+      </div>
+    </div>
+    <br />
+
+    <script src="index.js"></script>
+  </body>
+</html>
