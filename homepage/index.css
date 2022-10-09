@@ -365,18 +365,17 @@ input {
 
   .social-img {
     object-fit: contain;
-    width: 135px;
-    height: 135px;
+    width: 125px;
+    height: 125px;
     /* fallback color */
-    border: 0.75px solid burlywood;
-    border: 0.75px solid rgba(46, 21, 3, 0.5);
+    /* border: 0.75px solid burlywood;
+    border: 0.75px solid rgba(46, 21, 3, 0.5); */
   }
 
   .row-one {
     display: flex;
+    flex-direction: row;
     flex-wrap: wrap;
-    justify-content: center;
-    margin: 5px;
   }
 
   .row-two {
