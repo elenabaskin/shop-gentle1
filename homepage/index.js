@@ -37,7 +37,7 @@ function showSlides(n) {
   //for loop
   for (i = 0; i < slides.length; i++) {
     //every time index is less than # of slides, index goes up by 1
-    slides[i].style.display = "none";
+    slides[i].style.display = "none"; //so only selected slide appears
   }
   for (i = 0; i < dots.length; i++) {
     dots[i].className = dots[i].className.replace(" active", ""); //changes color of dot corresponding with slide #
